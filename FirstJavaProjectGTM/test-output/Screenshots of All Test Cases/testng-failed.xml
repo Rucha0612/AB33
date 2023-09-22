@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Screenshots of All Test Cases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Screenshot Test(failed)">
+    <classes>
+      <class name="amazontest.TestCase1">
+        <methods>
+          <include name="bookingtheproductusingCOD"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- amazontest.TestCase1 -->
+    </classes>
+  </test> <!-- Screenshot Test(failed) -->
+</suite> <!-- Failed suite [Screenshots of All Test Cases] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon Test - Select First Mobile with all payment options - 5 test case(failed)">
+    <classes>
+      <class name="amazontest.TestCase3">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="bookingtheproductusingNETBANKING"/>
+        </methods>
+      </class> <!-- amazontest.TestCase3 -->
+      <class name="amazontest.TestCase1">
+        <methods>
+          <include name="bookingtheproductusingCOD"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- amazontest.TestCase1 -->
+      <class name="amazontest.TestCase5">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="bookingtheproductusingCREDITCARD"/>
+        </methods>
+      </class> <!-- amazontest.TestCase5 -->
+      <class name="amazontest.TestCase4">
+        <methods>
+          <include name="bookingtheproductusingEMI"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- amazontest.TestCase4 -->
+    </classes>
+  </test> <!-- Amazon Test - Select First Mobile with all payment options - 5 test case(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->
